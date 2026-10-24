@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# TP1 — Création d'une application React simple
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Structure du projet
 
-## Available Scripts
+Le projet est organisé comme suit :
 
-In the project directory, you can run:
+<img width="354" height="486" alt="Screenshot 2026-10-24 173257" src="https://github.com/user-attachments/assets/66e891f6-8800-4465-96d4-0bbdeca2ad97" />
 
-### `npm start`
+## 2. Application principale
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+L'application principale regroupe les composants développés pendant ce TP afin de découvrir les concepts fondamentaux de React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2.1. Composant HelloWorld
 
-### `npm test`
+Ce composant affiche un premier message dans l'application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="529" height="329" alt="Screenshot 2026-10-24 155635" src="https://github.com/user-attachments/assets/2ecfb359-6c48-442d-a9e5-83eb66503551" />
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2.2. Composant Greeting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ce composant utilise les props pour afficher un message de bienvenue personnalisé à différents utilisateurs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="554" height="607" alt="Screenshot 2026-10-24 161137" src="https://github.com/user-attachments/assets/9b3d5a5b-b3f6-4ab8-828e-27ffe123041f" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 2.3. Composant Profil
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ce composant affiche les informations d'un profil, notamment le nom, l'âge et le statut. Il utilise également PropTypes pour vérifier les types des propriétés.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="944" height="431" alt="Screenshot 2026-10-24 163102" src="https://github.com/user-attachments/assets/b1bf4854-c3de-463f-87d3-616d297207c6" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 2.4. Composant Voiture
 
-## Learn More
+Ce composant affiche les informations des voitures à partir des props. Il permet également d'utiliser des valeurs par défaut avec defaultProps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="919" height="312" alt="Screenshot 2026-10-24 165956" src="https://github.com/user-attachments/assets/b997016b-664a-4e4a-8459-c4262a0a53ed" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 2.5. Composant ListeCourses
 
-### Code Splitting
+Ce composant affiche une liste de courses en utilisant la méthode map() pour parcourir les éléments.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img width="465" height="178" alt="Screenshot 2026-10-24 171341" src="https://github.com/user-attachments/assets/61986917-c22d-4193-b116-3835ad09ec8d" />
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 2.6. Composant BoutonAlerte
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Ce composant permet de découvrir la gestion des événements en React grâce à l'événement onClick.
 
-### Advanced Configuration
+<img width="480" height="136" alt="Screenshot 2026-10-24 172742" src="https://github.com/user-attachments/assets/564bca28-dcd7-45a6-bbaa-55b5ab95e200" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img width="449" height="142" alt="Screenshot 2026-10-24 172754" src="https://github.com/user-attachments/assets/ae7b257a-95f5-4dab-b9ae-245e8a974c88" />
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
